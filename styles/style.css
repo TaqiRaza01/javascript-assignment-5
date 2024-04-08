@@ -1,0 +1,53 @@
+.btn{
+    margin-bottom: 5px
+}
+
+
+
+@media screen and (min-width: 853px) and (max-width: 1280px) {
+#buttons-of-front{
+    margin: 0 auto;
+}
+}
+
+#buttons-of-front .btn{
+    width: 218px;
+}
+
+
+
+#inputText{
+    height: 138px;
+    display: flex;
+}
+
+/* bg-indigo-700 */
+
+#originalString{
+    background-color: #242769
+}
+
+/* clear button of input */
+
+
+#clrBtn{
+    margin-top: 6px;
+}
+#clrBtn:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(179, 244, 244);
+}
+#input:hover{
+border-width: 3px;
+
+}
+/* output area */
+
+#output{
+    min-height: 267px;
+}
+#cities{
+    font-size: 19px;
+    letter-spacing: 1px;
+}
